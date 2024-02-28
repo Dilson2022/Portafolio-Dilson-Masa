@@ -1,0 +1,25 @@
+h1 {
+  
+
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 50px;
+}
+
+
+.inicio {
+  
+  width: 90%;
+  height: 10rem;
+  margin: 50px;
+  font-size: 20px;
+  padding: 5px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+
+
+}

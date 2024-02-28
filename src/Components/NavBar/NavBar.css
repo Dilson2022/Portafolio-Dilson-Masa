@@ -1,0 +1,31 @@
+/* styles.css (o cualquier nombre que elijas) */
+
+/* Estilo para el contenedor principal del NavBar */
+.NavBar {
+    
+    margin: 0 0 0 80%;
+    padding: 10px;
+    display: flex;
+    justify-content:flex-end
+  }
+    
+  
+  /* Estilo para los enlaces del NavBar */
+  .NavBar a {
+    color: #181515;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 4px;
+  }
+
+  
+  
+  /* Cambio de color al pasar el mouse sobre los enlaces */
+  .NavBar a:hover {
+    background-color: black;
+    color: white;
+  }
+   

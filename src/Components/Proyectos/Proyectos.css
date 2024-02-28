@@ -1,0 +1,58 @@
+/* Proyectos.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .proyectoCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .enlace {
+    
+    padding: 3px;
+    border-radius: 5px;
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .enlace:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .titulo{
+   
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    padding: 5px;
+  }
+
+  .parrafo1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+
+  .parrafo2{
+    
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+  }
