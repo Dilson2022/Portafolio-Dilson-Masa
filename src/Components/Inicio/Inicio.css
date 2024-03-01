@@ -9,10 +9,16 @@ h1 {
   font-size: 50px;
 }
 
+.Padre {
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .inicio {
-  
-  width: 90%;
+  font-weight: bold;
+  width: 50%;
   height: 10rem;
   margin: 50px;
   font-size: 20px;
@@ -23,3 +29,26 @@ h1 {
 
 
 }
+
+.redes{
+ 
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-contacto{
+  font-size: 50px;
+  margin: 8px;
+  padding: 6px;
+  border-radius: 3px;
+  color: black;
+}
+
+.icons-contacto:hover{
+ background-color: black;
+ color: white;
+}
+
