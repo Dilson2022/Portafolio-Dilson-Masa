@@ -3,7 +3,8 @@ import "../NavBar/NavBar.css";
 const NavBar = () => {
   return (
     <div className="NavBar">
-      <Link to="/">Inicio</Link>
+      <Link to="/">home</Link>
+      <Link to="/inicio">Inicio</Link>
       <Link to="/proyectos">Proyectos</Link>
       <Link to="/habilidades">Habilidades</Link>
     </div>
