@@ -19,7 +19,7 @@
   }
   
   .enlace {
-    
+    border: 1px solid black;
     padding: 3px;
     border-radius: 5px;
     margin: auto;

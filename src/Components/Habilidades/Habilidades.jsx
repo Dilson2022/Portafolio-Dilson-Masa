@@ -4,7 +4,8 @@ import "../Habilidades/Habilidades.css"
 const Habilidades = () => {
     return ( 
         <div>
-             <NavBar />
+             {/* <NavBar /> */}
+
              <div className="habilidades">
 
                 <a href="#" className="iconos"><i className="fa-brands fa-react"></i></a>

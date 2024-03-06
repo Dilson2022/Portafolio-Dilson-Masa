@@ -1,22 +1,22 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Inicio from "./Components/Inicio/Inicio";
 import Proyectos from "./Components/Proyectos/Proyectos";
 import Habilidades from "./Components/Habilidades/Habilidades";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "./Components/Home/Home";
-//import NavBar from "./Components/NavBar/NavBar";
+import NavBar from "./Components/NavBar/NavBar";
 
-// const mostrarNabvar = location.pathname !== "/" ;
-// console.log(mostrarNabvar);
-
-
-
+ 
 
 function App() {
+  useLocation()
+  const mostrarNabvar = (location.pathname !== "/" );
+ 
+
   return (
     <div>
 
-      {/* {mostrarNabvar && <NavBar />} */}
+      {mostrarNabvar && <NavBar />}
 
       <Routes>
         <Route path="/" element={<Home />} />

@@ -2,8 +2,10 @@
 
 /* Estilo para el contenedor principal del NavBar */
 .NavBar {
-    
-    margin: 0 0 0 80%;
+   
+    width: 95%;
+    /* margin: 0 0 0 80%; */
+    margin: auto;
     padding: 10px;
     display: flex;
     justify-content:flex-end
@@ -28,4 +30,8 @@
     background-color: black;
     color: white;
   }
+
+  
+  
+    
    

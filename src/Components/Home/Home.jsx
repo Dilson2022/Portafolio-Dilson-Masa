@@ -1,10 +1,12 @@
 import "./Home.css"
 
 
+
 const Home = () => {
   return (
     
     <div className="home">
+      
       
         <h1 className="title">Bienvenidos a mi portafolio wed </h1>
         <h2>Dilson Masa Contreras</h2>

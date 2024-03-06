@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar"
 function Inicio() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
 
       <h1>Frontend Developers</h1>
 

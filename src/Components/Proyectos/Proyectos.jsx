@@ -53,7 +53,7 @@ const Proyectos = () => {
 
   return (
     <div>
-     <NavBar />
+     {/* <NavBar /> */}
       <section>
         <div className="container">
         
