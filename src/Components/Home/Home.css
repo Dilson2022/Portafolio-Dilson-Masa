@@ -1,5 +1,5 @@
 .home {
-  width: 96%;
+  width: 100%;
   margin: auto;
   padding: 0;
   height: 100vh;
@@ -14,9 +14,12 @@
 }
 
 .card{
-  background-color: rgb(18, 19, 19);
+  /*background-color: rgb(18, 19, 19);*/
+  background: rgba(0, 0, 0, 0.544);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   width: 350px;
-  height: 750px;
+  height: 500px;
   padding: 15px;
   border-radius: 50px;
   display: flex;
@@ -28,7 +31,7 @@
 
 .circulo-imagen{
   position: absolute;
-  background-color: rgb(3, 152, 221);
+  background-color: rgb(169, 8, 255);
   width: 200px;
   height: 200px;
   margin: 0px 0px 130px 0px;
@@ -52,7 +55,7 @@
   font-size: 1.5em;
   text-decoration: none;
   color: white;
-  margin: 0px 0px -300px 0px;
+  margin: 0px 0px -320px 0px;
   border-radius: 5px;
   transition: background-color 0.3s;
   border: 3px solid white;
@@ -63,12 +66,6 @@
 .ingresarBtn:hover {
   background-color: white;
   color: black;
-}
-
-.title {
-  
-  width: 800px;
-  margin: 0 auto;
 }
 
 h2{

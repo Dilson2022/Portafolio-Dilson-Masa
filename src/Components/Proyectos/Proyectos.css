@@ -1,60 +1,84 @@
 /* Proyectos.css */
 
 .container {
-  
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-    height: 75vh;
-  }
-  
-  .proyectoCard {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 20px;
-    text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .enlace {
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 5px;
-    margin: auto;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-  }
-  .enlace:hover{
-    background-color: black;
-    color: white;
-  }
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .titulo{
-   
-    width: 700px;
-    display: flex;
-    justify-content: center;
-    margin: 8px;
-    padding: 5px;
-  }
+.galeria{
+  max-width: fit-content;
+  height: fit-content;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1;
+}
 
-  .parrafo1{
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-  }
+.proyectoCard {
+  background-color: #252A2E;
+  position: relative;
+  max-width: 340px;
+  height: 250px;
+  margin: 10px;
+  border: solid 3px #252A2E;
+  border-radius: 8px;
+}
 
-  .parrafo2{
-    
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    font-weight: bold;
-  }
+.imagen{
+  position: absolute;
+  
+  z-index: 1;
+  max-width: 340px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.imagen:hover{
+  position: absolute;
+  transition: 1s;
+  opacity: 0;
+}
+
+.overlay{
+  display: inline-block;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.enlace {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.titulo {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  padding: 5px;
+}
+
+.parrafo1, .parrafo2{
+  margin: 15px;
+}
+
+.parrafo1 {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo2 {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-family: 'Nunito-Italic-VariableFont_wght', sans-serif;
+  font-weight: bold;
+}

@@ -17,6 +17,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/RICK_AND_MORTY",
+      imagen: "./src/assets/images/rick-y-morty.avif",
     },
     {
       id: 2,
@@ -32,6 +33,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/PI-Pokemon-Dilson-Masa",
+      imagen: "./src/assets/images/pokemon.jpg",
     },
     {
       id: 3,
@@ -47,6 +49,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/PI-CountryDILSON-MASA",
+      imagen: "./src/assets/images/paises.png",
     },
     
   ];
@@ -56,19 +59,21 @@ const Proyectos = () => {
      {/* <NavBar /> */}
       <section>
         <div className="container">
-        
-
-
-          {proyectosData.map((elementos) => (
-            <div key={elementos.id} className="proyectoCard">
-              <h3 className="titulo">{elementos.titulo} </h3>
-              <p className="parrafo1">{elementos.descripcion}</p>
-              <p className="parrafo2">{elementos.tecnologias.join(", ")} </p>
-              <a href={elementos.enlace} target="blank" className="enlace">
-                Ver Proyectos
-              </a>
-            </div>
-          ))}
+          <div className="galeria">
+            {proyectosData.map((elementos) => (
+              
+              <div key={elementos.id} className="proyectoCard">
+                  <a href={elementos.enlace} target="blank" className="enlace">
+                    <h3 className="titulo">{elementos.titulo} </h3>
+                    <img src={elementos.imagen} className="imagen" alt="" />
+                    <div className="overlay">
+                      <p className="parrafo1">{elementos.descripcion}</p>
+                      <p className="parrafo2">{elementos.tecnologias.join(", ")} </p>
+                    </div>
+                  </a>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </div>
