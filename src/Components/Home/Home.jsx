@@ -11,7 +11,7 @@ const Home = () => {
           <h2>Dilson Masa Contreras</h2>
           <br />
           <p className="status">Desarrollador de Software</p>
-          <a href="/inicio" className="ingresarBtn">Ingresar</a>
+          <a href="/sobremi" className="ingresarBtn">Ingresar</a>
         </div>
       </div>
   )

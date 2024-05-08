@@ -30,7 +30,6 @@
 
 .imagen{
   position: absolute;
-  
   z-index: 1;
   max-width: 340px;
   border-radius: 8px;
@@ -60,6 +59,7 @@
 
 .titulo {
   font-weight: bold;
+  font-size: 16pt;
   display: flex;
   justify-content: center;
   margin: 8px;
@@ -67,18 +67,18 @@
 }
 
 .parrafo1, .parrafo2{
-  margin: 15px;
+  margin: auto;
 }
 
 .parrafo1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 .parrafo2 {
   display: flex;
   justify-content: center;
-  margin: 5px;
-  font-family: 'Nunito-Italic-VariableFont_wght', sans-serif;
+  font-family: 'Nunito-VariableFont_wght', sans-serif;
   font-weight: bold;
 }

@@ -1,5 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import Inicio from "./Components/Inicio/Inicio";
+import Sobremi from "./Components/Sobremi/Sobremi";
 import Proyectos from "./Components/Proyectos/Proyectos";
 import Habilidades from "./Components/Habilidades/Habilidades";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -20,7 +20,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/inicio" element={<Inicio />} />
+        <Route path="/sobremi" element={<Sobremi />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/habilidades" element={<Habilidades />} />
       </Routes>

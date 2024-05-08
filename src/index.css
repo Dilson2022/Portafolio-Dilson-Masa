@@ -1,15 +1,12 @@
 @font-face {
   font-family: 'PoetsenOne-Regular';
-  src: url('./assets/fonts/PoetsenOne-Regular.ttf') format('ttf');
+  src: url('./assets/fonts/PoetsenOne-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family:'Nunito-VariableFont_wght',
-  'Nunito-Italic-VariableFont_wght'
-  ;
-  src: url('./assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format('ttf'),
-       url('./assets/fonts/Nunito-VariableFont_wght.ttf') format('ttf')
-  ;
+  font-family:'Nunito-VariableFont_wght', 'Nunito-Italic-VariableFont_wght';
+  src: url('./assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype'),
+       url('./assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
 }
 
 body {

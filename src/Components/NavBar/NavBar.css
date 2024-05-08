@@ -2,13 +2,13 @@
 
 /* Estilo para el contenedor principal del NavBar */
 .NavBar {
-   
     width: 95%;
     /* margin: 0 0 0 80%; */
     margin: auto;
     padding: 10px;
     display: flex;
-    justify-content:flex-end
+    justify-content: flex-end;
+    border-bottom: 3px solid darkgrey;
   }
     
   
@@ -16,19 +16,27 @@
   .NavBar a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 10px;
+    padding: 10px 25px;
     font-weight: bold;
+    font-family: 'Nunito-VariableFont_wght', sans-serif;
     font-size: 20px;
-    border-radius: 6px;
-    padding: 4px;
+    border-radius: 50px;
   }
-
-  
   
   /* Cambio de color al pasar el mouse sobre los enlaces */
   .NavBar a:hover {
-    background-color: black;
+    background-color: rgba(255, 255, 255, .5);
     color: white;
+    padding: 10px 25px;
+
+  }
+
+  .NavBar a:active {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 10px 25px;
+
   }
 
   
