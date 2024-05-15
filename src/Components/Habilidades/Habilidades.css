@@ -5,10 +5,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
 
 .iconos{
-  color: black;
+  
   width: 20%;
   height: 30%;
   font-size: 8rem;
@@ -23,6 +25,7 @@
 }
 
 .iconos:hover{
-  background-color: black;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(31,173,212,1) 28%, rgba(72,45,253,1) 100%);
   color: white;
 }

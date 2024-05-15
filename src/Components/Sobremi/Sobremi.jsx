@@ -18,14 +18,14 @@ function Sobremi() {
           <div className="fila">
           <div className="col columna-i">
             <h3>Datos Personales</h3>
+              
             <ul>
-              
-              <li><strong>Whatsaap: </strong><a href="https://wa.me/+573052119573" target="blank">+57 305 2119573</a></li>
-              <li><strong>Email: </strong> [dilsonmasacontreras82@gmail.com] </li>
-              
-              <li><strong>Direccion:</strong> [Colombia - Cartagena] </li>
+              <li><strong>Whatsaap:</strong><a href="https://wa.me/+573052119573" target="blank">+57 305 2119573</a></li>
+              <li><strong>Email:</strong> dilsonmasacontreras82@gmail.com </li>
+              <li><strong>Direccion:</strong> Colombia - Cartagena </li>
               <li><strong>Cargo:</strong>freelance</li>
             </ul>
+              
           </div>
           <div className="col columna-d">
             <h3>Intereses</h3>

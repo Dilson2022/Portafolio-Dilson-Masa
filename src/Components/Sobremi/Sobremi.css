@@ -1,6 +1,8 @@
-.container {
+/* .container {
   max-width: 96%;
   margin: 0 auto;
+  padding: 2rem;
+  
 }
 
 .padre, .redes{
@@ -134,4 +136,167 @@ strong {
 .icons-contacto:hover {
   background-color: black;
   color: white;
+} */
+
+.container {
+  max-width: 96%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.padre, .redes {
+  display: block;
+}
+
+.Padre {
+  background: rgba(0, 0, 0, 0.544);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 98%;
+  height: auto;
+  position: relative;
+  margin-top: -20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50px;
+  /* z-index: 1; */
+}
+
+h1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 40pt;
+}
+
+.yosoy {
+  color: #1cb698;
+  display: inline;
+  font-weight: bold;
+}
+
+.seccion {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  text-align: justify;
+}
+
+.sobre-mi, .yosoy {
+  padding: 10px;
+  font-size: 18pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.col {
+  width: 48%;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 12px 0;
+}
+
+strong {
+  display: inline-block;
+  color: #1cb698;
+  width: 130px;
+}
+
+.contenedor-intereses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intereses {
+  width: 100px;
+  height: 100px;
+  background-color: #252a2e;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.intereses:hover {
+  background-color: #1CB698;
+}
+
+.redes {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-contacto {
+  font-size: 50px;
+  margin: 8px;
+  padding: 6px;
+  border-radius: 3px;
+  color: black;
+}
+
+.icons-contacto:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  .fila {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Padre {
+     padding: 15px; 
+    
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+ 
+
+h3{
+  text-align: center;
+}
+  .sobre-mi, .yosoy {
+    font-size: 16pt;
+  }
+
+  .icons-contacto {
+    font-size: 40px;
+  }
 }

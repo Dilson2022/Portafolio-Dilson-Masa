@@ -1,34 +1,31 @@
-/* Proyectos.css */
-
-.container {
-  width: 100%;
-  height: 100vh;
+.container-padre {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.galeria{
+.galeria {
   max-width: fit-content;
   height: fit-content;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1;
+  grid-template-rows: repeat(2, 1fr); */
 }
 
 .proyectoCard {
-  background-color: #252A2E;
+  background-color: #252a2e;
   position: relative;
   max-width: 340px;
   height: 250px;
   margin: 10px;
-  border: solid 3px #252A2E;
+  border: solid 3px #252a2e;
   border-radius: 8px;
 }
 
-.imagen{
+.imagen {
   position: absolute;
   z-index: 1;
   max-width: 340px;
@@ -36,13 +33,13 @@
   cursor: pointer;
 }
 
-.imagen:hover{
+.imagen:hover {
   position: absolute;
   transition: 1s;
   opacity: 0;
 }
 
-.overlay{
+.overlay {
   display: inline-block;
   padding: 10px;
   justify-content: center;
@@ -66,7 +63,8 @@
   padding: 5px;
 }
 
-.parrafo1, .parrafo2{
+.parrafo1,
+.parrafo2 {
   margin: auto;
 }
 
@@ -79,6 +77,6 @@
 .parrafo2 {
   display: flex;
   justify-content: center;
-  font-family: 'Nunito-VariableFont_wght', sans-serif;
+  font-family: "Nunito-VariableFont_wght", sans-serif;
   font-weight: bold;
 }

@@ -1,4 +1,4 @@
-import NavBar from "../NavBar/NavBar";
+//import NavBar from "../NavBar/NavBar";
 import "./Proyectos.css"
 
 const Proyectos = () => {
@@ -58,7 +58,7 @@ const Proyectos = () => {
     <div>
      {/* <NavBar /> */}
       <section>
-        <div className="container">
+        <div className="container-padre">
           <div className="galeria">
             {proyectosData.map((elementos) => (
               

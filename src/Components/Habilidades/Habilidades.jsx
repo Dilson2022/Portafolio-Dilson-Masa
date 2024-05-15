@@ -1,24 +1,36 @@
 import NavBar from "../NavBar/NavBar";
-import "../Habilidades/Habilidades.css"
+import "../Habilidades/Habilidades.css";
 
 const Habilidades = () => {
-    return ( 
-        <div>
-             {/* <NavBar /> */}
+  return (
+    <div>
+      {/* <NavBar /> */}
 
-             <div className="habilidades">
+      <div className="habilidades">
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:react"></span>
+        </a>
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:html-5"></span>
+        </a>
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:javascript"></span>
+        </a>
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:css-3"></span>
+        </a>
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:mysql"></span>
+        </a>
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:postgresql"></span>
+        </a>
+        <a href="#" class="iconos">
+          <span class="iconify" data-icon="logos:material-ui"></span>
+        </a>
+      </div>
+    </div>
+  );
+};
 
-                <a href="#" className="iconos"><i className="fa-brands fa-react"></i></a>
-                <a href="#" className="iconos"><i className="fa-brands fa-html5"></i></a>
-                <a href="#" className="iconos"><i className="fa-brands fa-js"></i></a>
-                <a href="#" className="iconos"><i className="fa-brands fa-css3"></i></a>
-                <a href="#" className="iconos"><i className="fa-brands fa-node"></i></a>
-                <a href="#" className="iconos"><i className="fa-solid fa-database"></i> </a>
-                
-
-            </div>
-        </div>
-     );
-}
- 
 export default Habilidades;
