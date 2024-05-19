@@ -28,6 +28,9 @@ const Habilidades = () => {
         <a href="#" class="iconos">
           <span class="iconify" data-icon="logos:material-ui"></span>
         </a>
+        <a href="#" class="iconos">
+    <span class="iconify" data-icon="logos:wordpress"></span>
+  </a>
       </div>
     </div>
   );
