@@ -52,7 +52,7 @@ const Proyectos = () => {
       imagen: "../../../public/images/paises.png",
     },
     {
-      id: 1,
+      id: 4,
       titulo: "Pagina de peliculas",
       descripcion: "Una aplicación web desarrollada con React.js con las siguiestes tecnologias:",
       tecnologias: [

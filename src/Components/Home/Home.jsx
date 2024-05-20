@@ -5,7 +5,7 @@ const Home = () => {
       <div className="home">
         <div className="card">
           <div className="circulo-imagen">
-            <img src="./src/assets/images/Dilson.jpg" className="foto" alt="Dilson Masa Contreras"/>
+            <img src="../../../public/images/Dilson.jpg" className="foto" alt="Dilson Masa Contreras"/>
           </div>
           
           <h2>Dilson Masa Contreras</h2>
