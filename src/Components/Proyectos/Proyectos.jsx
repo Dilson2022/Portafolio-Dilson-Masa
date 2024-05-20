@@ -17,7 +17,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/RICK_AND_MORTY",
-      imagen: "./src/assets/images/rick-y-morty.avif",
+      imagen: "../../../public/images/rick-y-morty.avif",
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/PI-Pokemon-Dilson-Masa",
-      imagen: "./src/assets/images/pokemon.jpg",
+      imagen: "../../../public/images/pokemon.jpg",
     },
     {
       id: 3,
@@ -49,8 +49,24 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/PI-CountryDILSON-MASA",
-      imagen: "./src/assets/images/paises.png",
+      imagen: "../../../public/images/paises.png",
     },
+    {
+      id: 1,
+      titulo: "Pagina de peliculas",
+      descripcion: "Una aplicación web desarrollada con React.js con las siguiestes tecnologias:",
+      tecnologias: [
+        "React.js",
+        "Javascript",
+        "CSS",
+        "Html",
+      ],
+      enlace: "https://github.com/Dilson2022/pagina-de-peliculas-con-react/tree/master/srchttps://github.com/Dilson2022/pagina-de-peliculas-con-react",
+      imagen: "../../../public/images/movie.jpg",
+    },
+        
+        
+        
     
   ];
 

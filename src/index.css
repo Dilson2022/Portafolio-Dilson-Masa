@@ -11,7 +11,7 @@
 
 body {
   /*background-color:hsla(240,100%,1%,1);*/
-  background-image: url("./src/assets/images/fondo1.jpg");
+  background-image: url("../public/images/fondo1.jpg");
   object-fit: cover;
   background-size: cover;
   background-attachment: fixed; /* Fija la imagen de fondo */
