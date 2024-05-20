@@ -1,11 +1,12 @@
 import "./Home.css"
+import dilson from "../../../public/images/Dilson.jpg"
 
 const Home = () => {
   return (
       <div className="home">
         <div className="card">
           <div className="circulo-imagen">
-            <img src="../../../public/images/Dilson.jpg" className="foto" alt="Dilson Masa Contreras"/>
+            <img src= {dilson} className="foto" alt="Dilson Masa Contreras"/>
           </div>
           
           <h2>Dilson Masa Contreras</h2>
