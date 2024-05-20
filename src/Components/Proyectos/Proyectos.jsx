@@ -17,7 +17,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/RICK_AND_MORTY",
-      imagen: "../../../public/images/rick-y-morty.avif",
+      imagen: "/images/rick-y-morty.avif",
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/PI-Pokemon-Dilson-Masa",
-      imagen: "../../../public/images/pokemon.jpg",
+      imagen: "/images/pokemon.jpg",
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const Proyectos = () => {
         "PostgreSql",
       ],
       enlace: "https://github.com/Dilson2022/PI-CountryDILSON-MASA",
-      imagen: "../../../public/images/paises.png",
+      imagen: "/images/paises.png",
     },
     {
       id: 4,
@@ -62,7 +62,7 @@ const Proyectos = () => {
         "Html",
       ],
       enlace: "https://github.com/Dilson2022/pagina-de-peliculas-con-react/tree/master/srchttps://github.com/Dilson2022/pagina-de-peliculas-con-react",
-      imagen: "../../../public/images/movie.jpg",
+      imagen: "/images/movie.jpg",
     },
         
         
