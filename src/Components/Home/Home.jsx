@@ -1,5 +1,5 @@
 import "./Home.css"
-import dilson from "../../../public/images/Dilson.jpg"
+import dilson from "/images/Dilson.jpg"
 
 const Home = () => {
   return (
