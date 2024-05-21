@@ -11,19 +11,19 @@ function Sobremi() {
       <div className="Padre">
         <h1>Sobre mí</h1>
         <div className="seccion">
-          <p className="sobre-mi"><span className="yosoy">Soy Dilson Masa. </span>Desarrollador full Stack, con mas de un año de experiencia,
+          <p className="sobre-mi"><span className="yosoy">Soy Dilson Masa, </span>Desarrollador full Stack, con mas de un año de experiencia,
           en desarrollo backend y frontend junior, soy una persona proactiva y creativa. 
           Me gusta trabajar en equipo y dar soluciones para optimizar las tareas. Capacitado en gestion de proyectos.</p>
     
           <div className="fila">
           <div className="col columna-i">
-            <h3>Datos Personales</h3>
+            <h3 className="dato-personal">Datos Personales</h3>
               
             <ul>
               <li><strong>Whatsaap:</strong><a href="https://wa.me/+573052119573" target="blank">+57 305 2119573</a></li>
-              <li><strong>Email:</strong> dilsonmasacontreras82@gmail.com </li>
-              <li><strong>Direccion:</strong> Colombia - Cartagena </li>
-              <li><strong>Cargo:</strong>freelance</li>
+              <li><strong className="email">Email:</strong> dilsonmasacontreras82@gmail.com </li>
+              <li><strong className="direccion">Direccion:</strong> Colombia - Cartagena </li>
+              <li><strong className="cargo">Cargo:</strong>freelance</li>
             </ul>
               
           </div>
