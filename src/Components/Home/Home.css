@@ -11,6 +11,7 @@
   text-align: center;
   color: white;
   font-family: Arial, sans-serif;
+  position: fixed;
 }
 
 .card{
@@ -86,3 +87,8 @@ h2{
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+.home{
+  position: fixed;
+}  
+}
