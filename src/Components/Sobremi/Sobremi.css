@@ -168,7 +168,7 @@ h3{
   text-align: center;
 }
   .sobre-mi, .yosoy {
-    font-size: 16pt;
+    font-size: 20px;
   }
 
   .icons-contacto {
@@ -182,5 +182,15 @@ h3{
 
   .email{
     width: 20px;
+}
+
+.sobre-mi{
+  margin: 0px 20px;
+  padding: 0;
+}
+
+.yosoy{
+  padding: 2px;
+  margin: 0 ;
 }
 }
