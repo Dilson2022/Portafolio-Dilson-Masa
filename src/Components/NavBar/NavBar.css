@@ -10,6 +10,7 @@
   left: -100%; /* Inicialmente fuera de la pantalla a la izquierda */
   top: 0;
   height: 100%;
+  
 }
 
 /* Estilo para los enlaces del NavBar */
@@ -57,12 +58,13 @@
     top: 0;
     width: 80%;
     height: 100vh;
-    background-color:cornflowerblue ;
+    background-color:rgb(2, 2, 2) ;
     z-index: 100;
     /* padding: 60px 0 0; */
     transition: left 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
+  
   }
 
   .NavBar.open {
