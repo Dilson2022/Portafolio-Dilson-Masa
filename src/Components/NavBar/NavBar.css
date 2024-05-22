@@ -73,12 +73,11 @@
 
   .NavBar a {
     display: block;
-    margin: 1.5rem 0;
+    margin: 10px 0; /* Ajustar margen para reducir la separación */
     font-size: 1.1rem;
     text-align: center;
-    width: 80px;
-    margin: auto;
-    margin-bottom: 80px;
+    width: auto; /* Ajustar el ancho para mejor alineación */
+    padding: 10px 0; /* Ajustar padding para reducir la separación */
   }
 }
 
