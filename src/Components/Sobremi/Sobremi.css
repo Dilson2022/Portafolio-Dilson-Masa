@@ -1,6 +1,6 @@
 .container {
   max-width: 96%;
-  margin: 0 auto;
+  margin: 70px 0 auto;
   padding: 2rem;
 }
 
@@ -156,6 +156,7 @@ strong {
 
   .Padre {
      padding: 5px; 
+     top: 50px;
     
   }
 
@@ -192,5 +193,10 @@ h3{
 .yosoy{
   padding: 1px;
   margin: 0 ;
+}
+.container {
+  
+  margin: 5px 0 auto;
+ 
 }
 }

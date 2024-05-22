@@ -12,10 +12,16 @@ const NavBar = () => {
   const abrirMenu = () => {
     setAbrir(!abrir);
   }
+
+
   
   return (
     <div>
+      <div className="menu-padre">
+
       <FaBars className="menu" onClick={abrirMenu} />
+      </div>
+      
       <div className={`NavBar ${abrir ? 'open' : ''}`}>
         <Link to="/" className="cerrar"onClick={abrirMenu}>Inicio</Link>
         <Link to="/sobremi"onClick={abrirMenu}>Sobre mi</Link>

@@ -1,43 +1,44 @@
 /* Estilo para el contenedor principal del NavBar */
 .NavBar {
-  width: 95%;
-  margin: auto;
-  padding: 5px;
+  width: 100%;
+  /* margin: auto; */
+  /* padding: 5px; */
   display: flex;
-  justify-content: space-around;
-  border-bottom: 3px solid darkgrey;
-  transition: left 0.3s ease-in-out;
-  left: -100%; /* Inicialmente fuera de la pantalla a la izquierda */
+  justify-content: center;
+  height: 60px; /* Altura fija para la barra de navegación */
+  background-color: white;
+  position: fixed;
   top: 0;
-  height: 100%;
-  
+
+  z-index: 1000; /* Asegura que la barra de navegación esté encima del contenido */
 }
 
 /* Estilo para los enlaces del NavBar */
 .NavBar a {
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 10px;
   padding: 10px 25px;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: "Nunito-VariableFont_wght", sans-serif;
   font-size: 20px;
   border-radius: 50px;
-  transition: left 0.3s ease-in-out;
+   transition:  0.3s ease-in-out; 
+  
 }
 
 /* Cambio de color al pasar el mouse sobre los enlaces */
 .NavBar a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: black;
   color: white;
   padding: 10px 25px;
 }
-
+/* 
 .NavBar a:active {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 10px 25px;
-}
+} */
 
 .menu {
   font-size: 2em;
@@ -50,21 +51,31 @@
 @media (max-width: 768px) {
   .menu {
     display: flex;
+    margin: 6px;
+    margin-left: auto; /* Mueve el icono a la derecha */
+    margin-right: 10px; /* Ajusta el margen derecho */
   }
 
+  .menu-padre {
+    width: 100%;
+    background-color: gray;
+    padding: 1px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
   .NavBar {
     position: fixed;
-    left: -100%;
-    top: 0;
-    width: 80%;
+    left: -103%;
+    top: 46px;
+    width: 100%;
     height: 100vh;
-    background-color:rgb(2, 2, 2) ;
+    background-color: rgb(2, 2, 2);
     z-index: 100;
     /* padding: 60px 0 0; */
     transition: left 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
-  
   }
 
   .NavBar.open {
@@ -72,12 +83,18 @@
   }
 
   .NavBar a {
+    color: white;
     display: block;
-    margin: 10px 0; /* Ajustar margen para reducir la separación */
+    /* padding: 25px; */
     font-size: 1.1rem;
     text-align: center;
     width: auto; /* Ajustar el ancho para mejor alineación */
-    padding: 10px 0; /* Ajustar padding para reducir la separación */
+    
+  }
+
+  .NavBar a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 10px 25px;
   }
 }
-
