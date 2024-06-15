@@ -27,6 +27,7 @@ const NavBar = () => {
         <Link to="/sobremi"onClick={abrirMenu}>Sobre mi</Link>
         <Link to="/proyectos"onClick={abrirMenu}>Proyectos</Link>
         <Link to="/habilidades"onClick={abrirMenu}>Habilidades</Link>
+        <Link to="/contacto"onClick={abrirMenu}>Contacto</Link>
       </div>
     </div>
   );
