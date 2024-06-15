@@ -21,6 +21,7 @@
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
+    color: black;
   }
   
   
@@ -36,10 +37,12 @@
     padding-left: 10px;
     margin-bottom: 20px; 
     padding-top: 15px; 
+    color: black;
   }
   
   
   label{
+    color: black;
     display: block; 
     float: center;  
   }

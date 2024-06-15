@@ -19,10 +19,11 @@ body {
   position: relative;
   font-family: 'PoetsenOne-Regular', sans-serif;
   
+  
 }
 
 *{
   margin: 0;
   padding: 0;
-  color: black;
+  color: white;
 }

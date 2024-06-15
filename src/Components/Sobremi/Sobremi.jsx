@@ -9,7 +9,7 @@ function Sobremi() {
       {/* <NavBar /> */}
 
       <div className="Padre">
-        <h1>Sobre mí</h1>
+        <h1 className="nombre">Sobre mí</h1>
         <div className="seccion">
           <p className="sobre-mi"><span className="yosoy">Soy Dilson Masa, </span>Desarrollador full Stack, con mas de un año de experiencia,
           en desarrollo backend y frontend junior, soy una persona proactiva y creativa. 
@@ -28,31 +28,31 @@ function Sobremi() {
               
           </div>
           <div className="col columna-d">
-            <h3>Intereses</h3>
+            <h3 className="interese">Intereses</h3>
             <div className="contenedor-intereses">
               <div className="intereses">
-                <span>JUEGOS</span>
+                <span className="titulo-interes">JUEGOS</span>
               </div>
               <div className="intereses">
-                <span>MUSICA</span>
+                <span className="titulo-interes">MUSICA</span>
               </div>
               <div className="intereses">
-                <span>VIAJAR</span>
+                <span className="titulo-interes">VIAJAR</span>
               </div>
               <div className="intereses">
-                <span>VIDA SOC.</span>
+                <span className="titulo-interes">VIDA SOC.</span>
               </div>
               <div className="intereses">
-                <span>DEPORTE</span>
+                <span className="titulo-interes">DEPORTE</span>
               </div>
               <div className="intereses">
-                <span>LIBROS</span>
+                <span className="titulo-interes">LIBROS</span>
               </div>
               <div className="intereses">
-                <span>AUTOS</span>
+                <span className="titulo-interes">AUTOS</span>
               </div>
               <div className="intereses">
-                <span>TECNOLOGIA</span>
+                <span className="titulo-interes">TECNOLOGIA</span>
               </div>
             </div>
           </div>

@@ -61,10 +61,12 @@
   justify-content: center;
   margin: 8px;
   padding: 5px;
+  color: white;
 }
 
 .parrafo1,
 .parrafo2 {
+  color: white;
   margin: auto;
 }
 

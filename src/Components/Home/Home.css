@@ -81,6 +81,7 @@ h2{
 }
 
 .status{
+  color: white;
   font-size: 1rem;
   margin: 0px 0px -100px 0px;
   display: flex;
