@@ -183,7 +183,7 @@ h3{
   text-align: center;
 }
   .sobre-mi, .yosoy {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .icons-contacto {
@@ -216,7 +216,18 @@ h3{
 }
 
 .wordpres{
+  font-size: 13px;
   padding: 0;
-  letter-spacing: -0.5px;
+  /* letter-spacing: normal; */
+  word-spacing: normal;
+}
+.wordpres li {
+  word-spacing: -1px;
+}
+.info{
+  font-size: 13px;
+  padding: 0;
+  /* letter-spacing: normal; */
+  word-spacing: normal;
 }
 }

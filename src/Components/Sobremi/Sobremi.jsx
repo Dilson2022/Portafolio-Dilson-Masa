@@ -26,7 +26,7 @@ function Sobremi() {
           <div className="col columna-i">
             <h3 className="dato-personal">Datos Personales</h3>
               
-            <ul>
+            <ul className="info">
               <li><strong>Whatsaap:</strong><a href="https://wa.me/+573052119573" target="blank">+57 305 2119573</a></li>
               <li><strong className="email">Email:</strong> dilsonmasacontreras82@gmail.com </li>
               <li><strong className="direccion">Direccion:</strong> Colombia - Cartagena </li>

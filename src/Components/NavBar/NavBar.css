@@ -58,7 +58,7 @@
 
   .menu-padre {
     width: 100%;
-    background-color: gray;
+    background-color: rgb(14, 13, 13);
     padding: 1px;
     position: fixed;
     z-index: 1000;
