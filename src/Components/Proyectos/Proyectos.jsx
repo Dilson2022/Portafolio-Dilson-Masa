@@ -64,6 +64,40 @@ const Proyectos = () => {
       enlace: "https://github.com/Dilson2022/pagina-de-peliculas-con-react/tree/master/srchttps://github.com/Dilson2022/pagina-de-peliculas-con-react",
       imagen: "/images/movie.jpg",
     },
+    {
+      id: 5,
+      titulo: "Pagina de alquiler de motos",
+      descripcion: "Desarrolle una pagina web de alquiler de motos con wordpress para la empresa rogo Express en la ciudad de españa",
+      tecnologias: [
+        "Wordpress",
+      ],
+      enlace: "https://kingrentmoto.com/",
+      imagen: "/images/Kingrentmoto.jpeg",
+        
+    },
+
+    {
+      id: 6,
+      titulo: "Pagina web de zapatos urbanos en  españa",
+      descripcion: "Desarrolle una pagina web con wordpress de ventas de zapatos urbanos para la empresa rogo Express en la ciudad de españa",
+      tecnologias: [
+        "Wordpress",
+      ],
+      enlace: "https://royalkicks.es/",
+      imagen: "/images/zapatos.jpg",
+        
+    },
+    {
+      id: 7,
+      titulo: "Pagina web de tecnologia en españa",
+      descripcion: "Desarrolle una pagina web con wordpress de tecnologia para la empresa rogo Express en la ciudad de españa",
+      tecnologias: [
+        "Wordpress",
+      ],
+      enlace: "https://rogotech.es/",
+      imagen: "/images/tecnologia.jpg",
+        
+    },
         
         
         

@@ -11,9 +11,16 @@ function Sobremi() {
       <div className="Padre">
         <h1 className="nombre">Sobre mí</h1>
         <div className="seccion">
-          <p className="sobre-mi"><span className="yosoy">Soy Dilson Masa, </span>Desarrollador full Stack, con mas de un año de experiencia,
-          en desarrollo backend y frontend junior, soy una persona proactiva y creativa. 
-          Me gusta trabajar en equipo y dar soluciones para optimizar las tareas. Capacitado en gestion de proyectos.</p>
+          <p className="sobre-mi"><span className="yosoy">Soy Dilson Masa, </span>Soy un desarrollador Full Stack con más de un año de experiencia en el desarrollo de aplicaciones tanto en backend como en frontend. Mi enfoque principal es la creación de soluciones web eficientes y escalables. Tengo experiencia en la gestión de proyectos y soy una persona proactiva y creativa, siempre buscando maneras de optimizar tareas y procesos.</p>
+          
+          <ul>
+            <li> <strong>Frontend:</strong>  HTML, CSS, JavaScript, React.</li>
+            <li> <strong>Backend:</strong>  Node.js, Express, bases de datos postgreSql y Mysql.</li>
+            <li><strong>WordPress:</strong>  Desarrollo y personalización de temas y plugins, optimización de rendimiento y seguridad.</li>
+          </ul>
+
+          <p className="sobre-mi">Estoy siempre en la búsqueda de nuevos retos y oportunidades para aprender y crecer profesionalmente. Mi objetivo es seguir desarrollándome en el campo del desarrollo web y contribuir de manera significativa a los proyectos en los que participo.</p>
+            
     
           <div className="fila">
           <div className="col columna-i">
